@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "IJI",
+    " G "
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "J": { "item": "minecraft:jukebox" },
+    "G": { "item": "minecraft:gold_ingot" }
+  },
+  "result": {
+    "item": "cp-mod:portable_music_player",
+    "count": 1
+  }
+}

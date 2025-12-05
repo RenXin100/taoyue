@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "cp-mod",
+	"version": "${version}",
+	"name": "[荏心音乐机]cp-mod",
+	"description": "这是荏心的音乐机，你可以播放你想听的任何音乐并分享给你的朋友！",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cp-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.renxin.cpmod.CpMod"
+		],
+		"client": [
+			"com.renxin.cpmod.CpModClient"
+		],
+		"fabric-datagen": [
+			"com.renxin.CpModDataGenerator"
+		]
+	},
+	"mixins": [
+		"cp-mod.mixins.json",
+		{
+			"config": "cp-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.1",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "block.cp-mod.music_burner": "刻录机",
+  "block.cp-mod.music_player": "音乐机",
+  "item.cp-mod.blank_disc": "空唱片",
+  "item.cp-mod.custom_music_disc": "唱片",
+  "item.cp-mod.custom_music_disc.named": "唱片（%s）",
+  "item.cp-mod.portable_music_player": "荏心随身听",
+  "cp-mod.screen.burn": "刻录",
+  "cp-mod.upload.sending": "正在上传并刻录...",
+  "cp-mod.upload.no_blank_disc": "刻录机中需要一张空唱片。",
+  "cp-mod.upload.too_large": "文件过大，仅支持10MB以内。",
+  "cp-mod.upload.read_failed": "读取文件失败。",
+  "cp-mod.upload.invalid_extension": "只能刻录 .mp3 格式的音频文件。",
+  "cp-mod.upload.dialog_failed": "无法打开文件选择窗口（tinyfd 调用失败）。",
+  "advancement.cp-mod.root": "荏心音乐",
+  "advancement.cp-mod.root.desc": "开始你的音乐之旅",
+  "advancement.cp-mod.human_speaker": "人形音响",
+  "advancement.cp-mod.human_speaker.desc": "好了，现在你可以扰民了"
+}

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.cp-mod.root"
+    },
+    "description": {
+      "translate": "advancement.cp-mod.root.desc"
+    },
+    "icon": {
+      "item": "cp-mod:custom_music_disc"
+    },
+    "background": "minecraft:textures/block/jukebox_side.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "always": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "block.cp-mod.music_burner": "Music Burner",
+  "block.cp-mod.music_player": "Music Player",
+  "item.cp-mod.blank_disc": "Blank Music Disc",
+  "item.cp-mod.custom_music_disc": "Music Disc",
+  "cp-mod.upload.sending": "Uploading and burning...",
+  "cp-mod.upload.no_blank_disc": "You need a blank disc in the burner.",
+  "cp-mod.upload.too_large": "File is too large.",
+  "cp-mod.upload.read_failed": "Failed to read file.",
+  "cp-mod.upload.invalid_extension": "Only .ogg files can be burned.",
+  "cp-mod.upload.drag_hint": "Drag an .ogg file into this window to burn it."
+}

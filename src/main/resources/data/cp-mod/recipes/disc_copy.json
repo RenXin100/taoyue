@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "cp-mod:custom_music_disc" },
+    { "item": "minecraft:slime_ball" },
+    { "item": "minecraft:gold_ingot" }
+  ],
+  "result": {
+    "item": "cp-mod:custom_music_disc",
+    "count": 1
+  }
+}

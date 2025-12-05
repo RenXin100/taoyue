@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "cp-mod:block/mc_bofangqi" },
+    "facing=south": { "model": "cp-mod:block/mc_bofangqi", "y": 180 },
+    "facing=west":  { "model": "cp-mod:block/mc_bofangqi", "y": 270 },
+    "facing=east":  { "model": "cp-mod:block/mc_bofangqi", "y": 90  }
+  }
+}

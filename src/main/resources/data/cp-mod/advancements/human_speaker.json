@@ -1,0 +1,37 @@
+{
+  "parent": "cp-mod:root",
+  "display": {
+    "icon": {
+      "item": "cp-mod:portable_music_player"
+    },
+    "title": {
+      "translate": "advancement.cp-mod.human_speaker"
+    },
+    "description": {
+      "translate": "advancement.cp-mod.human_speaker.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_portable_player": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cp-mod:portable_music_player"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_portable_player"
+    ]
+  ]
+}

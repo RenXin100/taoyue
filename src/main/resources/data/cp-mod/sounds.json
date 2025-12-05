@@ -1,0 +1,13 @@
+{
+  "dynamic_disc": {
+    "category": "record",
+    "subtitle": "subtitles.cp-mod.dynamic_disc",
+    "sounds": [
+      {
+        "name": "minecraft:records/cat",
+        "stream": true,
+        "attenuation_distance": 64
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "DOR",
+    "QQQ"
+  ],
+  "key": {
+    "G": { "item": "minecraft:glass_pane" },
+    "D": { "item": "minecraft:glowstone_dust" },
+    "O": { "item": "minecraft:obsidian" },
+    "R": { "item": "minecraft:redstone" },
+    "Q": { "item": "minecraft:quartz" }
+  },
+  "result": {
+    "item": "cp-mod:music_burner"
+  }
+}

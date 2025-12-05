@@ -1,0 +1,9 @@
+
+{
+  "variants": {
+    "facing=north": { "model": "cp-mod:block/mc_keluji" },
+    "facing=south": { "model": "cp-mod:block/mc_keluji", "y": 180 },
+    "facing=west":  { "model": "cp-mod:block/mc_keluji", "y": 270 },
+    "facing=east":  { "model": "cp-mod:block/mc_keluji", "y": 90  }
+  }
+}

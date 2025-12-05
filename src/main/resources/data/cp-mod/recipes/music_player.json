@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "LLL"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "L": { "tag": "minecraft:logs" }
+  },
+  "result": {
+    "item": "cp-mod:music_player"
+  }
+}
